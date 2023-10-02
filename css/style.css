@@ -1,0 +1,411 @@
+
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+*{
+  box-sizing:border-box;
+ 
+
+}
+body{
+  font-family: "Work Sans", sans-serif;
+}
+.header{
+
+ width: 100%;
+  box-shadow: 0px 10px 4px #eee;
+  height: 60px;
+  display: flex;
+  
+
+  top:0;
+  
+}
+nav{
+  width: 100%;
+  max-width: 700px;
+  height: 60px;
+}
+
+.container{
+max-width: 1300px;
+width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 15px;
+}
+.logo{
+ 
+  width: 80px;
+  height: 30px;
+}
+
+ ul, li{
+list-style: none;
+
+display: flex;
+padding-left: 10px;
+justify-content:flex-end;
+font-size: 20px;
+ font-weight: bold;
+color: rgb(9, 144, 161);
+
+}
+
+
+ a{
+ 
+  color: #10cab7;
+  padding-left: 20px;
+  display: flex;
+  
+  
+}
+a:hover{
+  transform: scale(1.3);
+  transition: all .5s ease-in-out;
+  color: rgb(25, 128, 128);
+}
+
+/*end header*/
+/* start welcome img*/
+.welcome{
+  height: 600px;
+  background-image: url(../imgs/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-attachment: scroll;
+    background-size: 100%;
+    position: relative; 
+
+}
+.intro{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  max-width: 100%; 
+}
+h1{
+  color: #10cab7;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+
+}
+/* end welcome img*/
+/*start services*/
+
+.contain{
+ 
+margin-top: 70px;
+width: 100%;
+background-size: 100%;
+background-color: white;
+}
+.services_content{
+   
+  display: flex;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 15px;
+
+}
+.row1,
+.row2{
+  width: 400px;
+  height: 600px;
+  
+  padding-left: 50px;
+}
+.c2,
+.c4{
+  padding-top: 30px;
+}
+.row1 p{
+  color: gray;
+  font-size: 14px;
+}
+.row2 p{
+  color: gray;
+  font-size: 14px;
+}
+ .row1 h3{
+  font-size: 20px;
+  font-weight: bold;
+ }
+ .row2 h3{
+  font-size: 20px;
+  font-weight: bold;
+  
+ }
+ 
+ 
+ .contain h2{
+  text-align: center;
+  margin:auto;
+  font-weight:bold;
+  font-size: 100px;
+  opacity:0.15;
+ }
+ .dont{
+  text-align: center;
+  margin:auto;
+  font-size: 20px;
+  color: gray;
+ }
+ h3{
+  font-weight: bold;
+ }
+.zindx{
+  position: relative;
+
+  margin-left: 130px;
+ margin-top: 30px;
+ left:50px;
+ top:25px;
+ 
+
+  
+ 
+ }
+ .blo{
+  width: 100px;
+  height: 450px;
+  background-color: rgb(34, 46, 58);
+  margin-right: -10px;
+ 
+ 
+  
+ }
+ .blo,
+ .zindx{
+  float: left;
+
+ }
+/*end services*/
+/*start Portfolio*/
+
+  .contain2 h2{
+    text-align: center;
+    margin-top: 40px;
+    font-weight:bold;
+    font-size: 100px;
+    opacity:0.15;
+   }
+   .iff{
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+    color: gray;
+   }
+  
+   #Portfolio{
+float: left;
+
+   height: 700px;
+     width: 100%;
+     background-size: 100%;
+     background-color:#eee;
+   
+     }
+ 
+ 
+   table{
+    width:100%;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    }
+   table h3{
+    margin-top: 5px;
+    color: #0f2122;
+    font-weight: bold;
+    font-size: 20px;
+   }
+   table p{
+ 
+    font-size: 16px;
+    color: rgb(88, 84, 84);
+    width: 100%;
+   }
+/*end Portfolio*/
+/*start about*/
+.contain3{
+  float: left;
+  height: 800px;
+   width: 100%;
+   background-size: 100%;
+   background-color:white;
+   }
+   .contain3 h2{
+     text-align: center;
+     margin-top: 40px;
+     font-weight:bold;
+     font-size: 100px;
+     opacity:0.15;
+    }
+    .less{
+     text-align: center;
+     margin:auto;
+     font-size: 20px;
+     color: gray;
+    }
+    .grai{
+      width: 100px;
+      height: 450px;
+      background-color: #cfceceea;
+      
+    }
+    .above_grai{
+      position: relative;
+      top: 25px;
+      right: 40px;
+     
+    }
+    .above_grai,
+    .grai{
+  float: left;
+  
+ }
+ .about_content{
+  margin-left: 100px;
+  float:left;
+ 
+ }
+ .about_content p{
+  padding-top: 100px;
+  padding-left: 100px;
+  margin-left: 150px;
+  font-size: 16px;
+  font-weight: 800;
+  color: darkgray;
+
+ }
+ .loren{
+  margin-left: 250px;
+ }
+ .loren2{
+  font-weight: 300 !important;
+ }
+ hr{
+ 
+  width: 400px;
+  color: #10cab7;
+ 
+ }
+/*end about*/
+/*start contact*/
+.contain4{
+  float: left;
+  height: 500px;
+  width: 100%;
+  background-size: 100%;
+  background-color:#eee;
+}
+.d1{
+  width:100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.contain4 h2{
+  text-align: center;
+  margin-top: 40px;
+  font-weight:bold;
+  font-size: 100px;
+  opacity:0.15;
+ }
+ .d1 h3{
+  font-size: 35px;
+  color: #054a4d;
+  font-weight: 900;
+ }
+.d1 a{
+  font-size: 30px;
+  font-style: none;
+  font-weight: 800;
+}
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook, 
+.fa-twitter,
+.fa-youtube{
+
+  color: rgb(19, 76, 83);
+
+}
+
+
+/*end contact*/
+/*start footer*/
+span{
+color: #10cab7;
+font-size: 30px;
+
+
+}
+footer{
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-size: 100%;
+  font-size: 20px;
+text-align: center;
+  
+  font-weight: bold;
+  color: white;
+
+
+  background-color: #081816;
+}
+/*end footer*/
+
+
+
+
